@@ -1,0 +1,42 @@
+/* General styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+  } 
+  .main {
+    padding: 20px;
+  }
+  
+  /* Style for paragraph tags */
+  p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Style for unordered list tags */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    padding: 15px;
+    background-color: #e5e5e5;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  ul li:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  ul li:last-child {
+    border-bottom: none;
+  }

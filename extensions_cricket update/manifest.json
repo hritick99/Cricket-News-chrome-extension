@@ -1,0 +1,15 @@
+{
+    "name":"IPL match score",
+    "version":"1.0.0",
+    "description":"Get the IPL match highlights",
+    "manifest_version":3,
+    "author":"Hritick sharma",
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"IPL match"
+    },
+    "icons":{
+        "360":"cricket.png"
+    }
+
+}
